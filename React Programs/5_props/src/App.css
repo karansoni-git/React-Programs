@@ -1,0 +1,18 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-align: center;
+}
+.heading{
+ color: rgb(214, 153, 78);
+ text-decoration: underline black;
+}
+li{
+    font-size: 20px;
+    font-weight: 700;
+    &:hover
+    {
+        border-bottom: 1px solid black;
+    }
+}
