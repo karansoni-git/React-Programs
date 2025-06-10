@@ -1,0 +1,20 @@
+.container{
+    background-color: rgb(206, 121, 17);
+    width: 50%;
+    height: 50%;
+    text-align: center;
+    border:2px solid black;
+    border-radius: 6px;
+    margin: 10px;
+}
+/*this is an extran styling which we should not give here for that component styling we
+use specific component css module.*/
+h1{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    text-decoration:underline;
+}
+p{
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    border: 2px solid black;
+    font-weight: 500;
+}
