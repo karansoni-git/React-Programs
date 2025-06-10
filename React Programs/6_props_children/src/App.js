@@ -1,6 +1,6 @@
 /* props.children is a special prop (property) that lets a component display whatever you wrap inside it when you use it. 
 
-example:If you create a component and put something between its opening <Component> and closing </Component> tags, that "something" becomes available to the component via props.children.*/
+If you create a component and put something between its opening <Component> and closing </Component> tags, that "something" becomes available to the component via props.children.*/
 
 import Component from "./components/Component";
 
