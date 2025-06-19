@@ -1,0 +1,32 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100vw;
+    height: 100vh;
+    text-align: center;
+}
+h1{
+    font-size: 3rem;
+}
+#btn{
+    margin: 1rem;
+    font-size: 2rem;
+    padding: 0.6rem;
+    border-radius: 1rem;
+    border: none;
+    background-color: bisque;
+    font-weight: 600;
+}
+#input{
+    display: block;
+    font-size: 1.8rem;
+    text-align: center;
+    margin: 1rem;
+    padding: 0.6rem;
+}
