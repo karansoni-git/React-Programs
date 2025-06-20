@@ -1,0 +1,46 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body{
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #B17F59;
+  color: #EDE8DC;
+}
+.container{
+  width: 420px;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+.label{
+  float: left;
+  font-size: 1.7rem;
+} 
+#input1,#input2,#input3{
+  float: right;
+  font-size: 1.1rem;
+}
+#subBtn{
+  margin: 18px 165px;
+  padding: 0.2rem 1rem;
+  font-size: 2rem;
+  border-radius: 1rem;
+  text-transform: uppercase;
+}
+.redInput{
+  border: 2px solid red;
+}
+.errorMsg{
+  color: red;
+}
+.newMessage{
+  display: inline-block;
+  width: 200px;
+  height: 20px;
+}
